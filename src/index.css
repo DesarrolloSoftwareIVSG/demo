@@ -1,3 +1,12 @@
 body{
     background-color: gold;
 }
+
+@media print {
+    body {
+        background-color: white;
+    }
+    h1{
+        display: none;
+    }
+}
